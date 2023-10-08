@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1689647993254193179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4238338359282216186}
+  - component: {fileID: 7224947214208353333}
+  m_Layer: 0
+  m_Name: StreetSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4238338359282216186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689647993254193179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4330504, y: -11.146362, z: -22.511433}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7224947214208353333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689647993254193179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56747df2c23e14df592c1e8220d81ec6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  streetWidth: 17
+  numberOfLanes: 4
+  streetMaterial: {fileID: 2100000, guid: 069de147d5a40443886acbb3ce63fe3d, type: 2}
+  sidewalk: {fileID: 4072720143016891507, guid: 187a320d6ee49e247938aadcb97fef2d,
+    type: 3}
+  roadStripes: {fileID: 9214126657986951493, guid: 17d9904ab0fa1bf43a81ff32b6fd8d8b,
+    type: 3}
+  destroyerZ: -50

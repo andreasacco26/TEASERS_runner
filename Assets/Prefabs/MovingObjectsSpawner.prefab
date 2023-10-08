@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9035688414437555553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1721944004643513220}
+  - component: {fileID: 5089097869527576453}
+  m_Layer: 0
+  m_Name: MovingObjectsSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1721944004643513220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9035688414437555553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5089097869527576453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9035688414437555553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1468ed4b870d24026951dd995c78597e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  streetWidth: 17
+  numberOfLanes: 4
+  speed: 4
+  slowmoSpeed: 0.9
+  minSpawnTime: 0.9
+  maxSpawnTime: 1.5
+  spawnCooldownCarsWall: 6
+  itemsToSpawn:
+  - {fileID: 100000, guid: c98da428142c39c42bb62c454958cd1f, type: 3}
+  - {fileID: 100000, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
+  - {fileID: 100000, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
+  - {fileID: 100000, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
+  - {fileID: 100000, guid: d20839e362efa3d4baa3d2ce1b4f2df4, type: 3}
+  - {fileID: 100000, guid: 05aec82adc02f16409639716322b1673, type: 3}
+  - {fileID: 100000, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
+  - {fileID: 100000, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
+  initialSpeed: 5
