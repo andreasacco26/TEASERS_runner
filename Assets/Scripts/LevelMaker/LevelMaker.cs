@@ -248,19 +248,23 @@ public class LevelMaker: MonoBehaviour {
 
     public void SetEasyLevel() {
         level = 0;
-        var width = 4.25f * 3f;
         numberOfLanes = 3;
-        streetWidth = width;
+        streetWidth = GetStreetWidth(numberOfLanes);
     }
 
     public void SetMediumLevel() {
         level = 1;
+        numberOfLanes = 4;
+        streetWidth = GetStreetWidth(numberOfLanes);
     }
 
     public void SetHardLevel() {
         level = 2;
-        var width = 4.25f * 5f;
         numberOfLanes = 5;
-        streetWidth = width;
+        streetWidth = GetStreetWidth(numberOfLanes);
+    }
+
+    private float GetStreetWidth(float numberOfLanes) {
+        return streetWidth / 4 * numberOfLanes;
     }
 }

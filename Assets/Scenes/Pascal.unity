@@ -3655,7 +3655,7 @@ MonoBehaviour:
   worldSlowmoSpeed: 11
   slowmoTimer: 2.6
   cooldownSlowmoTimer: 4
-  streetWidth: 17
+  streetWidth: 19
   numberOfLanes: 4
   currentSlowmoTimer: 0
   movingObjectsSpawnerPosition: {x: 0, y: 0, z: 120}

@@ -102,4 +102,8 @@ public class PlayerController: MonoBehaviour {
         LevelMaker.shared.OnGameOver();
         GetComponent<KnightBusEffects>().Explode();
     }
+
+    public void OnInstrumentCollisionEnter(MusicalInstrument instrument) {
+        Debug.Log(instrument.type);
+    }
 }

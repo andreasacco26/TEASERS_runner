@@ -60,4 +60,9 @@ MonoBehaviour:
   - {fileID: 100000, guid: 05aec82adc02f16409639716322b1673, type: 3}
   - {fileID: 100000, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
   - {fileID: 100000, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
+  itemsToCollect:
+  - {fileID: 2861770587716895772, guid: 9dda927ae71bd47538ebf35212d0812f, type: 3}
+  - {fileID: 56083430637283284, guid: 7eb43732b91514ca29d9b61a7bd79c7d, type: 3}
+  - {fileID: 6053381387453504563, guid: b7b1ea9ab7f534113b7bc13e03191554, type: 3}
+  - {fileID: 4418679966474152688, guid: 0fd18fde3706a48d5980f59a582135e9, type: 3}
   initialSpeed: 5
