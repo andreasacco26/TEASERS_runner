@@ -48,9 +48,9 @@ MonoBehaviour:
   numberOfLanes: 4
   speed: 4
   slowmoSpeed: 0.9
-  minSpawnTime: 0.9
-  maxSpawnTime: 1.5
-  spawnCooldownCarsWall: 6
+  minSpawnTime: 1.6
+  maxSpawnTime: 1.6
+  spawnCooldownCarsWall: 10
   itemsToSpawn:
   - {fileID: 100000, guid: c98da428142c39c42bb62c454958cd1f, type: 3}
   - {fileID: 100000, guid: cffe1734bc43bcb47b6433ebca05c04c, type: 3}
