@@ -12,7 +12,7 @@ public class MusicalInstrument: MonoBehaviour {
 
     public MusicalInstrumentType type;
 
-    private Sequence animation;
+    private Sequence animationSequence;
 
     void Start() {
         gameObject.layer = 3;
@@ -22,15 +22,15 @@ public class MusicalInstrument: MonoBehaviour {
         var collider = gameObject.AddComponent<BoxCollider>();
         collider.center = new Vector3(0, 1.4f, 0);
         var child = transform.GetChild(0);
-        animation = DOTween.Sequence();
-        animation.Append(child.DOLocalMoveY(child.localPosition.y + 2f, 1.0f).SetEase(Ease.InOutQuad));
-        animation.Append(child.DOLocalMoveY(child.localPosition.y, 1.0f).SetEase(Ease.InOutQuad));
-        animation.SetLoops(-1);
-        animation.Play();
+        animationSequence = DOTween.Sequence();
+        animationSequence.Append(child.DOLocalMoveY(child.localPosition.y + 2f, 1.0f).SetEase(Ease.InOutQuad));
+        animationSequence.Append(child.DOLocalMoveY(child.localPosition.y, 1.0f).SetEase(Ease.InOutQuad));
+        animationSequence.SetLoops(-1);
+        animationSequence.Play();
     }
 
     private void OnDestroy() {
-        animation.Kill();
-        animation = null;
+        animationSequence.Kill();
+        animationSequence = null;
     }
 }
