@@ -16,8 +16,8 @@ public class WheelsTurner: MonoBehaviour {
     private Tweener bodyAnimation;
 
     void RotateTires(float rotationAngle) {
-        leftTire.transform.DOLocalRotate(new Vector3(0, rotationAngle, 0), rotationTime, RotateMode.Fast);
-        rightTire.transform.DOLocalRotate(new Vector3(0, rotationAngle + 180f, 0), rotationTime, RotateMode.Fast);
+        leftTire.transform.DOLocalRotate(new Vector3(0, rotationAngle, 90), rotationTime, RotateMode.Fast);
+        rightTire.transform.DOLocalRotate(new Vector3(0, rotationAngle + 180f, 90), rotationTime, RotateMode.Fast);
     }
 
     void Update() {
