@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "LDJam54.sln"
+    "dotnet.defaultSolution": "TEASERS_runner.sln"
 }
