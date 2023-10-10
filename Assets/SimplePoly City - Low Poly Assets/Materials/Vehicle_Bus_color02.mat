@@ -453,8 +453,8 @@ Material:
     - _Unlit_Intensity: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _Use_1stAs2nd: 0
-    - _Use_BaseAs1st: 0
+    - _Use_1stAs2nd: 1
+    - _Use_BaseAs1st: 1
     - _ZOverDrawMode: 0
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
@@ -469,8 +469,8 @@ Material:
     - _utsVersionY: 9
     - _utsVersionZ: 5
     m_Colors:
-    - _1st_ShadeColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
-    - _2nd_ShadeColor: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+    - _1st_ShadeColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
+    - _2nd_ShadeColor: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 1}
     - _AngelRingMaskColor: {r: 0, g: 1, b: 0, a: 1}
     - _AngelRing_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Ap_RimLightColor: {r: 1, g: 1, b: 1, a: 1}
